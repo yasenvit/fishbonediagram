@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fishbonediagram/static/css/main.d7bb0d85.chunk.css",
+    "main.js": "/fishbonediagram/static/js/main.1d356899.chunk.js",
+    "main.js.map": "/fishbonediagram/static/js/main.1d356899.chunk.js.map",
+    "runtime-main.js": "/fishbonediagram/static/js/runtime-main.4ee6b2bf.js",
+    "runtime-main.js.map": "/fishbonediagram/static/js/runtime-main.4ee6b2bf.js.map",
+    "static/js/2.fc2623fc.chunk.js": "/fishbonediagram/static/js/2.fc2623fc.chunk.js",
+    "static/js/2.fc2623fc.chunk.js.map": "/fishbonediagram/static/js/2.fc2623fc.chunk.js.map",
+    "index.html": "/fishbonediagram/index.html",
+    "static/css/main.d7bb0d85.chunk.css.map": "/fishbonediagram/static/css/main.d7bb0d85.chunk.css.map",
+    "static/js/2.fc2623fc.chunk.js.LICENSE.txt": "/fishbonediagram/static/js/2.fc2623fc.chunk.js.LICENSE.txt",
+    "static/media/styling.css": "/fishbonediagram/static/media/bg-pattern.5e78345c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ee6b2bf.js",
+    "static/js/2.fc2623fc.chunk.js",
+    "static/css/main.d7bb0d85.chunk.css",
+    "static/js/main.1d356899.chunk.js"
+  ]
+}
