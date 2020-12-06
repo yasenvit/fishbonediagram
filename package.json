@@ -23,7 +23,7 @@
     "react-scripts": "^4.0.1",
     "react-text-mask": "^5.4.3"
   },
-  "homepage": "https://github.com/yasenvit/fishbonediagram",
+  "homepage": "https://yasenvit.github.io/fishbonediagram/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
