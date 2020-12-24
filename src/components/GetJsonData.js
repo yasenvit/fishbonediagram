@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 import BuildDiagram from './BuildDiagram';
 import JsonFormField from './JsonFormField';
-import imgUrl from '../images/bg-pattern.jpg';
 import PopUp from "./PopUp";
 
 export default class GetJsonData extends Component {
@@ -152,15 +151,7 @@ export default class GetJsonData extends Component {
             />;
         };
         return (
-            <div
-                className="json"
-                style={{
-                    backgroundImage: `url(${imgUrl})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center center',
-                    backgroundRepeat: 'repeat',
-                }}>
-
+            <div className="json">
                 <div className="json-form" onChange={this.handleChange()}>
                     <div>
                         <Button variant="contained" style={jsonFormatButtonStyle} color="primary" onClick={() => { this.getFormatSample() }}>

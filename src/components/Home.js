@@ -29,15 +29,7 @@ export default class Home extends Component {
             </div>
         )
         return (
-            <div
-                className="home"
-                style={{
-                    backgroundImage: `url(${imgUrl})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center center',
-                    backgroundRepeat: 'no-repeat',
-                }}>
-
+            <div className="home">
                 <div className="text">
                     <div>
                         <h3>FISHBONE DIAGRAM</h3>

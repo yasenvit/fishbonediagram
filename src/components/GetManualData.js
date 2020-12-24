@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import BuildDiagram from './BuildDiagram';
 import Button from '@material-ui/core/Button';
 import ManualFormField from './ManualFormField';
-import imgUrl from '../images/bg-pattern.jpg';
 
 export default class GetManualData extends Component {
     constructor(props) {
@@ -199,15 +198,7 @@ export default class GetManualData extends Component {
         />);
 
         return (
-            <div
-                className="create"
-                style={{
-                    backgroundImage: `url(${imgUrl})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center center',
-                    backgroundRepeat: 'no-repeat',
-                }}>
-
+            <div className="create">
                 <div className="create-form">
                     <div className="create-form-objects" onChange={this.handleChange(inputFor)}>
                         {backButton}
